@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.title-of-blog {
+    font-size: 55px;
+    font-weight: 400;
+    font-family: cursive;
+   /* background-image: linear-gradient(to right,#4eb6cd,#0b6ee7, #387ED1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color: #387ED1;
+    margin : 10px 0 0 0 ;
+    text-align: center;
+   /* text-shadow: 1px 1px 10px #fdffff;*/
+}
