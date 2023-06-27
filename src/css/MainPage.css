@@ -1,18 +1,41 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5;
+    background-image: radial-gradient(circle, black, rgb(17, 16, 16), rgb(18, 17, 17))
 }
 
-.title-of-blog {
-    font-size: 55px;
-    font-weight: 400;
-    font-family: cursive;
-   /* background-image: linear-gradient(to right,#4eb6cd,#0b6ee7, #387ED1);
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px 0 0 0 ;
+}
+
+.logo {
+    height: 220px;
+    width: 250px;
+    margin: 0 0 0 20px;
+    box-shadow: 1px 1px 1px 1px rgb(226, 219, 219) ;
+}
+
+.tagline, .slogan {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-image: linear-gradient(to right, #F2F2F2, #fff, #FFFFFF);
     background-clip: text;
-    -webkit-text-fill-color: transparent;*/
-    color: #387ED1;
-    margin : 10px 0 0 0 ;
+    -webkit-text-fill-color: transparent;
+
     text-align: center;
-   /* text-shadow: 1px 1px 10px #fdffff;*/
+}
+
+.tagline {
+    margin: 50px 0 0 0 ;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.slogan {
+    margin: 20px 0 0 0 ;
+    font-size: 20px;
+    font-weight: 400;
 }
