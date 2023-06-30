@@ -6,8 +6,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    margin: 0 0 0 0 ;
+    background-color: #3500D3;
+    margin: 2px 0 0 0 ;
     height: 400px;
     width: 100%;
 
