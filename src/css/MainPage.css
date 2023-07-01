@@ -6,13 +6,13 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #3500D3;
-    margin: 2px 0 0 0 ;
-    height: 400px;
-    width: 100%;
+    background-color: #C3073F;
+    margin: 50px 10% 0 10% ;
+    height: 300px;
+    width: 80%;
+    box-shadow: 0 0 300px #000;
 
-    border-radius: 0 0 30% 30%;
-    
+    border-radius: 0 0 20% 20%;  
 }
 
 .logo {

@@ -4,6 +4,9 @@ import React from 'react'
 function Content() {
   return (
     <>
+        <div>
+            <p className='content-tag'>Unlimited Content</p>
+        </div>
         <div className='blocks'>
             <div className='advetures box'>
                  <p className='title'>Adventures</p>
